@@ -1,6 +1,8 @@
 # 🧼 ImageDenoising
 
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-AI-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?logo=tensorflow)
+![Clean images](https://img.shields.io/badge/images-cleaned-success
 
 **Denoising di immagini Fashion-MNIST con Autoencoder (Keras)**
 
