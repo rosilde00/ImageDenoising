@@ -23,23 +23,9 @@ Il risultato?
   - Encoder: 600 → 100 → 20 neuroni  
   - Decoder: 100 → 600 neuroni  
   - Output: 784 neuroni (immagine ricostruita)  
-  [1](https://github.com/rosilde00/ImageDenoising/blob/main/image_denoising.py)
 - 🔹 Training con **Adam optimizer**, `loss = mse`  
 - 🔹 EarlyStopping con pazienza = 3  
 - 🔹 Valutazione MSE/MAE sul validation set
-
----
-
-## 🧠 Architettura dell’Autoencoder
-
-L’autoencoder è definito come segue:
-Input (784)
-└── Dense(600, relu)
-└── Dense(100, relu)
-└── Dense(20, relu)          ← Latent space
-└── Dense(100, relu)
-└── Dense(600, relu)
-Output (784)
 
 ---
 
